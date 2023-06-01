@@ -18,7 +18,7 @@ export default function AppLayout() {
         </div>
         <div className='page-content px-8 py-8'>
           <Routes>
-            <Route element={<Contact />} />
+            <Route path="/" element={<Contact />} />
             <Route path="/charts-and-maps" element={<ChartsMaps />} />
             
           </Routes>
