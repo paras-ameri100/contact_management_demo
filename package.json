@@ -1,6 +1,6 @@
 {
-  "homepage": "http://paras-ameri100.github.io/contact_management_demo",
-  "name": "contact_management",
+  
+  "name": "contact_management_demo",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
