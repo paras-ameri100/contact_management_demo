@@ -10,7 +10,7 @@ import ChartsMaps from '../pages/ChartsMaps';
 
 export default function AppLayout() {
   return (
-    <Router>
+    <Router basename='/contact_management_demo'>
       <div className="row">
 
         <div className='sidebar'>
@@ -18,7 +18,7 @@ export default function AppLayout() {
         </div>
         <div className='page-content px-8 py-8'>
           <Routes>
-            <Route path="/" element={<Contact />} />
+            <Route path="/contact_management_demo" element={<Contact />} />
             <Route path="/charts-and-maps" element={<ChartsMaps />} />
             
           </Routes>

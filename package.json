@@ -2,7 +2,7 @@
   "homepage": "http://paras-ameri100.github.io/contact_management_demo",
   "name": "contact_management",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tanstack/react-query": "^4.29.12",
     "@testing-library/jest-dom": "^5.16.5",
